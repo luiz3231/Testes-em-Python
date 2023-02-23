@@ -14,20 +14,20 @@ class Cliente:
 
     
 if __name__ == '__main__':
-    Ana = Cliente('Ana','15/09/2007','123.456.789-25')
+    Emily = Cliente('Emily','15/09/2007','123.456.789-25')
     Luiz = Cliente('Luiz Eduardo Rodrigues Santos', '31/10/2005', '149.019.496-75')
 
     Luiz.comprou(300)
     Luiz.pagou(5)
     
-    Ana.comprou(900)
-    Ana.pagou(200)
+    Emily.comprou(900)
+    Emily.pagou(200)
 
     
-    print(f'Cliente: {Ana.nome}')
-    print(f'Data de nascimento: {Ana.data_nascimento}')
-    print(f'CPF: {Ana.CPF}')
-    print(f'Deve o Valor de R${Ana.DEVE}')
+    print(f'Cliente: {Emily.nome}')
+    print(f'Data de nascimento: {Emily.data_nascimento}')
+    print(f'CPF: {Emily.CPF}')
+    print(f'Deve o Valor de R${Emily.DEVE}')
     print()
     print()
     print(f'Cliente: {Luiz.nome}')
