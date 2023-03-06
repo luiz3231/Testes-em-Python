@@ -14,7 +14,7 @@ c = int(input('C = '))
 delta = b**2-4*a*c
 if delta < 0:
     print('SØ')
-else:
+elif delta >= 0:
     x = ((b * -1) + math.sqrt(delta)) / 2
     print(f'Δ = {delta}')
     if x < 0:
@@ -22,3 +22,5 @@ else:
         print(f'x = {X}')
     else:
         print(f'x = {x}')
+else:
+    pass
